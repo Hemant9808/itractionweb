@@ -12353,13 +12353,14 @@ h2 {
 }
 
 .header_wrap .header_menu>li {
-  display: inline-block
+  display: inline-block;
+  
 }
 
 header.sticky {
   position: fixed;
   top: 0;
-  left: 0;
+  left: 5%;
   z-index: 99999;
   background-color: #1770a2;
   box-shadow: 0 13px 35px -12px rgb(35 35 35/15%);
