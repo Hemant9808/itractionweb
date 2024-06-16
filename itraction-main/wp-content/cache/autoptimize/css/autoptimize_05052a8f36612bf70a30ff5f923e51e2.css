@@ -12340,6 +12340,19 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: space-between
+
+}
+@media (max-width: 1250px) {
+    .header_wrap {
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        width: 100vw;
+        padding-left: 2rem;
+    
+    }
+   
+
 }
 
 .header_wrap .logo {
@@ -12348,6 +12361,7 @@ h2 {
     padding: 16px 0;
     height: auto
 }
+
 
 .header_wrap .header_menu {
     display: inline-block;
